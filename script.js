@@ -7,7 +7,7 @@
         rotate: 0,
         stretch: 0,
         depth: 200,
-        modifier: 5,
+        modifier: 5.44,
         slideShadows: false,
       
       },  
@@ -15,5 +15,9 @@
       
       pagination: {
         el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
       },
     });

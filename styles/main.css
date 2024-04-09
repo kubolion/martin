@@ -84,6 +84,26 @@
     box-shadow: 0 15px 50px rgba(0,0,0,0);
   }
 
+
+
+.swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
+}
+.swiper-pagination-bullet-active{
+    width: 12px !important;
+    height: 12px !important;
+}
+
+  
+  .swiper-button-prev:after{
+display: none;
+  }
+
+  .swiper-button-next:after{
+display: none;
+  }
+
   .box{
     margin: 0 auto;
   }
