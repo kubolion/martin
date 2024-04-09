@@ -146,10 +146,21 @@ form {
 }
 .user-info div{
     width: 100%;
+}
+.user-info-list{
     display: flex;
     gap: 70px;
 }
+.user-info_group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user-info_group, .user-title label {
+    color: #00239F;
+}
 .user-title, .user-title textarea {
+
     width: 100%;
 }
 
