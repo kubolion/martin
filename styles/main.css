@@ -1,0 +1,169 @@
+.about-us{
+    padding-top: 66px;
+}
+
+.about-us_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+}
+
+.about-us_all{
+    display: flex;
+    gap: 160px;
+    padding-bottom: 130px;
+}
+.about-us_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 148%;
+    font-size: 24px;
+}
+/*  */
+.possibilities{
+    padding-top: 70px;
+}
+.possibilities-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 115px;
+    padding-bottom: 100px;
+}
+.possibilities-wrapper li  {
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    align-items: center;
+    
+                             
+}
+.possibilities-list{
+    display: flex;
+    gap: 120px;
+  justify-content: space-around;
+}
+.possibilities-list div{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/*  */
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 74px;
+    padding-bottom: 80px;
+}
+.portfolio-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px !important;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 800px;
+    border-radius: 40px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    
+  }
+  .swiper-slide-active{
+    box-shadow: 0 15px 50px rgba(0,0,0,0);
+  }
+
+  .box{
+    margin: 0 auto;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    border-radius: 40px;
+    
+  }
+
+/*  */
+
+.partners-bg{
+    background-image: url(../images/bgpartn.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+    padding-top: 25px;
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 85px;
+}
+.partners-list{
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+}
+.partners-list div{
+    display: flex;
+    gap: 95px;
+}
+/*  */
+
+.contact-us{
+    padding-top: 95px;
+}
+.wrapper-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 75px;
+    padding-bottom: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 960px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+.user-info div{
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+.user-title, .user-title textarea {
+    width: 100%;
+}
+
+
+.button-form{
+    display: flex;
+    justify-content: end;
+}
+.button-form button{
+    height: 54px;
+   padding: 0 48px  ;
+   align-items: center; 
+   color: white;
+   background-color: #00239F;
+   border-radius: 5px;
+   font-size: 20px ;
+}

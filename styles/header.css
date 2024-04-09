@@ -1,0 +1,67 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 799px;
+    background-image: url(../images/schitovoe_oborudovanie_l\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 280px;
+    padding-top: 111px;
+}
+.header-logo p {
+    padding-left: 20px;
+    line-height: 135%;
+    font-size: 65px;
+}
+
+
+
+.nav-wrapper{
+    display: inline-block;
+    
+}
+.header-nav{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+    align-items: end;
+}
+
+.list-items{
+   
+    display: flex;
+    gap: 26px;
+    cursor: pointer;
+    padding-top: 75px;
+}
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.header-contacts div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-contacts a {
+    color: white;
+    font-size: 40px ;
+    line-height: 148%;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+
+}

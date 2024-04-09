@@ -1,0 +1,23 @@
+footer{
+    background-image: url(../images/bgpartn.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 86px;
+    padding-bottom: 86px;
+    color: white ;
+}
+.footer-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 72px ;
+}
+.footer-navigation{
+    align-items: center;
+    display: flex;
+    gap: 86px;
+}
+.list-items_footer{
+    display: flex;
+    gap: 26px;
+}
