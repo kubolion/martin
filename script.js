@@ -10,14 +10,19 @@
         modifier: 5.44,
         slideShadows: false,
       
-      },  
+      },
+      autoplay:{
+        delay:3000,
+      }  ,
+      speed:500,
       loop: true,
       
       pagination: {
-        el: ".swiper-pagination",
+        el: ".pagination-btn",
+        dynamicBullets: true
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".nav-btn_next",
+        prevEl: ".nav-btn_prev",
       },
     });

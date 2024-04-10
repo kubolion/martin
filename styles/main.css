@@ -56,7 +56,6 @@
     flex-direction: column;
     gap: 60px;
     padding-top: 74px;
-    padding-bottom: 80px;
 }
 .portfolio-title{
     display: flex;
@@ -69,7 +68,8 @@
 .swiper {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 50px !important;
+    padding-bottom: 40px !important;
+    margin-bottom: 50px ;
   }
 
   .swiper-slide {
@@ -96,13 +96,29 @@
     height: 12px !important;
 }
 
-  
+.slider-controller{
+    padding-top: 25px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-btn{
+
+    transform: translateX(0%) !important;
+}
+
   .swiper-button-prev:after{
 display: none;
   }
 
   .swiper-button-next:after{
 display: none;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    position: absolute;
+    
   }
 
   .box{
