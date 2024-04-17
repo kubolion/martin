@@ -64,3 +64,24 @@ input::placeholder, textarea::placeholder {
     border: none;
   }
 
+  @media (max-width: 1444px) {
+    .section{
+      padding-left: 90px;
+      padding-right: 90px;
+      width: auto;
+    }
+  }  @media (max-width: 900px) {
+    .section{
+      padding-left: 40px;
+      padding-right: 40px;
+      width: auto;
+    }
+    h2, h3{
+      font-size: 40px;
+      text-align: center;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+

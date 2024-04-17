@@ -3,6 +3,9 @@
       grabCursor: true,
       centeredSlides: true,
       slidesPerView: "auto",
+
+
+
       coverflowEffect: {
         rotate: 0,
         stretch: 0,
@@ -12,7 +15,7 @@
       
       },
       autoplay:{
-        delay:3000,
+        delay:33000,
       }  ,
       speed:500,
       loop: true,

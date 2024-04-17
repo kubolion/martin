@@ -1,3 +1,4 @@
+
 .about-us{
     padding-top: 66px;
 }
@@ -40,7 +41,7 @@
 }
 .possibilities-list{
     display: flex;
-    gap: 120px;
+    gap: 40px;
   justify-content: space-around;
 }
 .possibilities-list div{
@@ -79,6 +80,7 @@
     max-height: 400px;
     border-radius: 40px;
     box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+    
     
   }
   .swiper-slide-active{
@@ -215,3 +217,109 @@ form {
    border-radius: 5px;
    font-size: 20px ;
 }
+/* adapt */
+
+@media (max-width: 1444px) {
+.about-us_all{
+    gap: 80px;
+    align-items: center;
+}
+.about-us_all img{
+max-width: 337px;
+max-height: 337px;
+}
+}
+@media (max-width: 1300px) {
+    .about-us_title{
+        font-size: 18px;
+    }
+    .about-us_all{
+        gap: 40px;
+    }
+
+}
+@media (max-width: 1000px) {
+    .possibilities{
+        padding-top: 60px;
+    }
+.possibilities-list{
+    flex-direction: column;
+}
+.possibilities-wrapper{
+    padding-bottom: 60px;
+    gap: 60px;
+}
+form {
+    width: 700px;
+}
+}
+
+@media (max-width: 900px) {
+    .about-us{
+        padding-top: 35px;
+    }
+    .about-us_wrapper{
+        gap: 40px;
+    }
+    .about-us_all{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+    .section-title{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .swiper-slide{
+        max-width: 536px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0);
+    
+
+    }
+
+    .box{
+        max-width: 536px;
+    }
+    .partners-bg{
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .partners{
+        gap: 50px;
+    }
+    .partners-list{
+        gap: 30px;
+    }
+    .partners-list div {
+        gap: 21px;
+    }
+    .partners-list img{
+        max-width: 90px;
+        max-height: 50px;
+
+    }
+
+    .user-info-list{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 900px) {
+    form{
+        width: 500px;
+    }
+}
+@media (max-width: 580px) {
+    form{
+        width: 350px;
+        
+    }
+    .button-form{
+        justify-content: left;
+    }
+}
+
+
+
