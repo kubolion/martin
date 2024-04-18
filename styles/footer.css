@@ -48,7 +48,7 @@ footer{
         justify-self:right;
     }
     .number p{
-        font-size: 40px;
+        font-size: 36px;
     }
 
 }
@@ -65,6 +65,7 @@ footer{
 
 }
 .description  p {
+     width: 300.54px;
     font-size: 12px;
     padding-top: 50px;
 }
