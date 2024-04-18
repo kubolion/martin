@@ -59,6 +59,9 @@ footer{
     flex-direction: column;
     gap: 35px;
 }
+.footer-nav_items{
+    text-align: center;
+}
 .list-items_footer{
     font-size: 12px;
     gap: 15px;
