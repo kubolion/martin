@@ -23,6 +23,7 @@
     padding-left: 20px;
     line-height: 135%;
     font-size: 65px;
+    font-weight: 600;
 }
 
 
@@ -43,8 +44,11 @@
    
     display: flex;
     gap: 26px;
-    cursor: pointer;
     padding-top: 75px;
+}
+.list-items li {
+    
+    cursor: pointer;
 }
 .header-contacts{
     display: flex;
