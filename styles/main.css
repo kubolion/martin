@@ -225,7 +225,7 @@ form {
    border-radius: 5px;
    font-size: 20px ;
    user-select: none;
-   line-height: 0;
+   line-height: 2.6;
 }
 
 /* adapt */
