@@ -198,6 +198,21 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+.user-info_group input{
+    font-size: 20px;
+    
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
 .user-info_group input:focus{
     outline: none;
 }
@@ -208,14 +223,22 @@ form {
     color: #00239F;
 }
 .user-title, .user-title textarea {
-
     width: 100%;
+    font-size: 20px;
+}
+.user-title textarea:focus{
+    outline: none;
 }
 
-
+.user-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .button-form{
     display: flex;
     justify-content: end;
+    
 }
 .button-form button{
     height: 54px;
