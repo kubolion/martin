@@ -15,7 +15,7 @@
       
       },
       autoplay:{
-        delay:33000,
+        delay:3000,
       }  ,
       speed:500,
       loop: true,
