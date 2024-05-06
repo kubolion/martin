@@ -156,16 +156,70 @@ display: none;
     align-items: center;
     color: white;
     gap: 85px;
+    overflow: hidden;
 }
-.partners-list{
-    display: flex;
-    flex-direction: column;
-    gap: 85px;
-}
-.partners-list div{
-    display: flex;
-    gap: 95px;
-}
+
+    @keyframes slide {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes slideReverse {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(100%);
+        }
+      }
+      
+      .logos {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+      }
+      
+      .logos:before,
+      .logos:after {
+        position: absolute;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        content: "";
+        z-index: 2;
+      }
+      
+
+      
+      .logos:hover .logos-slide {
+        animation-play-state: paused;
+      }
+      .logos:hover .logos-slide_reverse {
+        animation-play-state: paused;
+      }
+      .logos-slide {
+        display: inline-block;
+        animation: 30s slide infinite linear;
+      }
+      .logos-slide_reverse{
+        display: inline-block;
+        animation: 30s slideReverse infinite linear
+      }
+      
+
+      .logos-slide img , .logos-slide_reverse img {
+        max-width: 1000px;
+       max-height: 100px;
+        margin: 0 40px;
+      }
+
+
+
+
+
 /*  */
 
 .contact-us{
@@ -332,17 +386,7 @@ form {
     .partners{
         gap: 50px;
     }
-    .partners-list{
-        gap: 30px;
-    }
-    .partners-list div {
-        gap: 21px;
-    }
-    .partners-list img{
-        max-width: 90px;
-        max-height: 50px;
-
-    }
+   
 
     .user-info-list{
         flex-direction: column;
