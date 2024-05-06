@@ -180,6 +180,7 @@ display: none;
         overflow: hidden;
         white-space: nowrap;
         position: relative;
+        pointer-events: none;
       }
       
       .logos:before,
