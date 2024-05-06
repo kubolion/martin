@@ -192,14 +192,6 @@ display: none;
         z-index: 2;
       }
       
-
-      
-      .logos:hover .logos-slide {
-        animation-play-state: paused;
-      }
-      .logos:hover .logos-slide_reverse {
-        animation-play-state: paused;
-      }
       .logos-slide {
         display: inline-block;
         animation: 30s slide infinite linear;
