@@ -181,8 +181,21 @@ display: none;
         pointer-events: none;
       }
       
-      
+   
       .logos-slide {
+        display: inline-block;
+        animation: 100s slide infinite linear;
+      }
+      .logos-slide_reverse{
+        display: inline-block;
+        animation: 100s slideReverse infinite linear;
+      }
+      
+      
+
+
+
+      /* .logos-slide {
         display: inline-block;
         animation: 100s slide infinite linear(0 0%, 1.34 38.24%, 1 100%);
       }
@@ -190,7 +203,7 @@ display: none;
         display: inline-block;
         animation: 100s slideReverse infinite linear(0 0%, 1.34 38.24%, 1 100%);
       }
-      
+       */
 
       .logos-slide img , .logos-slide_reverse img {
         max-width: 1000px;
