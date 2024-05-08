@@ -369,20 +369,18 @@ form {
         gap: 50px;
     }
     
-    .logos-slide-3, .logos-slide_reverse-3{
+    /* .logos-slide-3, .logos-slide_reverse-3{
         display: none;
-    }
+    } */
     .user-info-list{
         flex-direction: column;
-    }
-
-}
-
-@media (max-width: 900px) {
-    form{
+    }   
+     form{
         width: 500px;
     }
+
 }
+
 @media (max-width: 580px) {
     form{
         width: 350px;
