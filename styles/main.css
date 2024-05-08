@@ -181,29 +181,16 @@ display: none;
         pointer-events: none;
       }
       
-   
+      
       .logos-slide {
         display: inline-block;
-        animation: 10s slide infinite ease-out;
+        animation: 40s slide infinite linear;
       }
       .logos-slide_reverse{
         display: inline-block;
-        animation: 10s slideReverse infinite ease-out;
+        animation: 40s slideReverse infinite linear;
       }
       
-      
-
-
-
-      /* .logos-slide {
-        display: inline-block;
-        animation: 100s slide infinite linear(0 0%, 1.34 38.24%, 1 100%);
-      }
-      .logos-slide_reverse{
-        display: inline-block;
-        animation: 100s slideReverse infinite linear(0 0%, 1.34 38.24%, 1 100%);
-      }
-       */
 
       .logos-slide img , .logos-slide_reverse img {
         max-width: 1000px;
@@ -381,10 +368,6 @@ form {
     .partners{
         gap: 50px;
     }
-    
-    /* .logos-slide-3, .logos-slide_reverse-3{
-        display: none;
-    } */
     .user-info-list{
         flex-direction: column;
     }   
