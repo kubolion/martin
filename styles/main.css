@@ -184,11 +184,11 @@ display: none;
    
       .logos-slide {
         display: inline-block;
-        animation: 100s slide infinite linear;
+        animation: 10s slide infinite ease-out;
       }
       .logos-slide_reverse{
         display: inline-block;
-        animation: 100s slideReverse infinite linear;
+        animation: 10s slideReverse infinite ease-out;
       }
       
       
