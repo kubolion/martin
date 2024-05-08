@@ -179,7 +179,7 @@ display: none;
       .logos {
         overflow: hidden;
         white-space: nowrap;
-        pointer-events: none;
+        /* pointer-events: none; */
       }
       
       
