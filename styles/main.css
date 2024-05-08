@@ -369,8 +369,10 @@ form {
     .partners{
         gap: 50px;
     }
-   
-
+    
+    .logos-slide-3, .logos-slide_reverse-3{
+        display: none;
+    }
     .user-info-list{
         flex-direction: column;
     }
