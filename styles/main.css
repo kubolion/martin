@@ -167,19 +167,18 @@ display: none;
           transform: translateX(-100%);
         }
       }
-      /* @keyframes slideReverse {
+      @keyframes slideReverse {
         from {
           transform: translateX(0);
         }
         to {
           transform: translateX(100%);
         }
-      } */
+      }
       
       .logos {
-        overflow: hidden;
         white-space: nowrap;
-        /* pointer-events: none; */
+        pointer-events: none;
       }
       
       
