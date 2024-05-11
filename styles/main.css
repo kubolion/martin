@@ -167,7 +167,7 @@ display: none;
           transform: translateX(-100%);
         }
       }
-      /* @keyframes slideReverse {
+      @keyframes slideReverse {
         from {
           transform: translateX(0);
         }
@@ -175,7 +175,7 @@ display: none;
           transform: translateX(100%);
         }
       }
-       */
+      
       .logos {
         white-space: nowrap;
         pointer-events: none;
