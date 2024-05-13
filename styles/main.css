@@ -159,6 +159,11 @@ display: none;
     overflow: hidden;
 }
 
+.logos {
+  white-space: nowrap;
+  pointer-events: none;
+}
+
     @keyframes slide {
         from {
           transform: translateX(0);
@@ -178,12 +183,29 @@ display: none;
 
         }
       }
-      
-      .logos {
-        white-space: nowrap;
-        pointer-events: none;
+
+
+
+      @-webkit-keyframes slide {
+        from {
+          transform: translateX(0);
+        }
+        to {
+            -webkit-transform: translateX(-100%) ;
+          transform: translateX(-100%);
+        }
       }
-      
+      @-webkit-keyframes slideReverse {
+        from {
+          transform: translateX(0);
+        }
+        to {
+            -webkit-transform: translateX(100%) ;
+          transform: translateX(100%);
+
+        }
+      }
+
       
       .logos-slide {
         display: inline-block;
@@ -197,6 +219,7 @@ display: none;
         animation: 40s slideReverse infinite linear;
 
       }
+      
       
 
       .logos-slide img , .logos-slide_reverse img
