@@ -186,25 +186,7 @@ display: none;
 
 
 
-      @-webkit-keyframes slide {
-        from {
-          transform: translateX(0);
-        }
-        to {
-            -webkit-transform: translateX(-100%) ;
-          transform: translateX(-100%);
-        }
-      }
-      @-webkit-keyframes slideReverse {
-        from {
-          transform: translateX(0);
-        }
-        to {
-            -webkit-transform: translateX(100%) ;
-          transform: translateX(100%);
-
-        }
-      }
+      
 
       
       .logos-slide {
