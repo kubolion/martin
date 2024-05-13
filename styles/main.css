@@ -164,8 +164,8 @@ display: none;
           transform: translateX(0);
         }
         to {
+            -webkit-transform: translateX(-100%) ;
           transform: translateX(-100%);
-          -webkit-transform: translateX(-100%) ;
         }
       }
       @keyframes slideReverse {
@@ -173,8 +173,8 @@ display: none;
           transform: translateX(0);
         }
         to {
+            -webkit-transform: translateX(100%) ;
           transform: translateX(100%);
-          -webkit-transform: translateX(100%) ;
 
         }
       }
@@ -187,14 +187,14 @@ display: none;
       
       .logos-slide {
         display: inline-block;
-        animation: 40s slide infinite linear;
         -webkit-animation: 40s slide infinite linear;
+        animation: 40s slide infinite linear;
 
       }
       .logos-slide_reverse{
         display: inline-block;
-        animation: 40s slideReverse infinite linear;
         -webkit-animation: 40s slideReverse infinite linear;
+        animation: 40s slideReverse infinite linear;
 
       }
       
