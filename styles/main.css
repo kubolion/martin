@@ -171,7 +171,6 @@ display: none;
         to {
             -webkit-transform: translateX(-100%) ;
           transform: translateX(-100%);
-          transform: translateZ(0);
         }
       }
       @keyframes slideReverse {
