@@ -90,7 +90,7 @@
     }
     .list-items{
      position: absolute ;
-     width: 301px;
+     width: 310px;
      top: 0;
      left: 50%; 
      transform: translateX(-50%); 
