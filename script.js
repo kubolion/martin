@@ -29,3 +29,34 @@
         prevEl: ".nav-btn_prev",
       },
     });
+
+
+// var swiper = new Swiper(".swiper-partners", {
+
+//   onInit:setHeightSlides,
+//   onUpdate:setHeightSlides ,
+//   modules:Autoplay ,
+//   autoplay:{delay: 0 , pauseOnMouseEnter: false,},
+//   speed:2000,
+//   allowTouchMove:false,
+//   slidesPerView:3.9,
+//   centeredSlides:true,
+//   loop:true,
+//   loopAdditionalSlides:3,
+//   loopPreventsSliding:true,
+//   spaceBetween:32,
+//   breakpoints:{
+//       0: {
+//           spaceBetween: 16,
+//           slidesPerView: 1.6
+//       },
+//       768: {
+//           spaceBetween: 16,
+//           slidesPerView: 2.6
+//       },
+//       1024: {
+//           spaceBetween: 32,
+//           slidesPerView: 3.9
+//       }
+//   }  
+// })

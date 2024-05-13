@@ -165,6 +165,7 @@ display: none;
         }
         to {
           transform: translateX(-100%);
+          -webkit-transform: translateX(-100%) ;
         }
       }
       @keyframes slideReverse {
@@ -173,6 +174,8 @@ display: none;
         }
         to {
           transform: translateX(100%);
+          -webkit-transform: translateX(100%) ;
+
         }
       }
       
@@ -192,7 +195,9 @@ display: none;
       }
       
 
-      .logos-slide img , .logos-slide_reverse img {
+      .logos-slide img , .logos-slide_reverse img
+       /* .swiper-slide_partners img */
+        {
         max-width: 1000px;
        max-height: 100px;
         margin: 0 40px;
