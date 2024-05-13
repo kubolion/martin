@@ -171,6 +171,7 @@ display: none;
         to {
             -webkit-transform: translateX(-100%) ;
           transform: translateX(-100%);
+          transform: translateZ(0);
         }
       }
       @keyframes slideReverse {
@@ -205,7 +206,6 @@ display: none;
       
 
       .logos-slide img , .logos-slide_reverse img
-       /* .swiper-slide_partners img */
         {
         max-width: 1000px;
        max-height: 100px;
