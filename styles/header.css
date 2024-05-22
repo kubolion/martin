@@ -71,7 +71,14 @@
     text-decoration: none;
 
 }
-
+    .mail{
+        cursor: pointer;
+    }
+    .mail p{
+        text-decoration: underline ;
+        color: #FFA480;
+        font-size: 20px !important;
+    }
 
 /* adapt */
 @media (max-width: 900px) {
@@ -124,9 +131,7 @@
     .header-contacts a p {
         font-size: 24px;
     }
-    .mail p{
-        font-size: 20px !important;
-    }
+
 }
 @media (max-width: 460px) {
 
