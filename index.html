@@ -26,6 +26,14 @@
         <title>inStat</title>
     </head>
     <body>
+        <div class="support-bot">
+            <div class="toggle-block" id="toggle-block">
+                <iframe src="https://creator.voiceflow.com/prototype/664af3560f8dc192086dc937" frameborder="0"></iframe>
+            </div>
+            <div class="clickable" id="clickable">
+                <img style="width: 100px;" src="./images/support.svg" alt="">
+            </div>
+        </div>
         <header>
             <div class="header" >
                 
@@ -59,6 +67,8 @@
             </div>
         </header>
         <main>
+ 
+
 
                 <section id="page-1" class=" section about-us">
                     <div class="about-us_wrapper">
@@ -335,6 +345,16 @@
     </div>
 </section>
 </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var clickable = document.getElementById('clickable');
+        var toggleBlock = document.getElementById('toggle-block');
+
+        clickable.addEventListener('click', function() {
+            toggleBlock.classList.toggle('active');
+        });
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="./script.js"></script>
 </body>

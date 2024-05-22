@@ -85,3 +85,24 @@ input::placeholder, textarea::placeholder {
     }
   }
 
+  .support-bot{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    text-align: end;
+  }
+
+  .clickable{
+    cursor: pointer;
+  }
+
+  .toggle-block {
+    display: none;
+  }
+  .toggle-block iframe{
+    height: 600px;
+  }
+
+  .toggle-block.active {
+    display: block; 
+}
