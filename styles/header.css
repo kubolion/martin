@@ -16,11 +16,11 @@
 .header-logo{
     display: flex;
     flex-direction: column;
-    gap: 280px;
+    gap: 127px;
     padding-top: 111px;
 }
 .header-logo p {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     line-height: 135%;
     font-size: 65px;
     font-weight: 600;
@@ -87,6 +87,8 @@
     }
     .header-logo,.nav-wrapper{
         max-width: 300px;
+        text-align: center;
+        align-items: center;
     }
     .list-items{
      position: absolute ;

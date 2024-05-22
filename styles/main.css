@@ -220,7 +220,9 @@ display: none;
         margin: 0 40px;
       }
 
-
+.swiper-pagination-bullet-active{
+    background-color: #FFA480 !important ;
+}
 
 
 
@@ -281,9 +283,9 @@ input::-webkit-inner-spin-button {
 .user-info_group p{
     font-size: 20px;
 }
-.user-info_group, .user-title label {
-    color: #00239F;
-}
+/* .user-info_group, .user-title label {
+
+} */
 .user-title, .user-title textarea {
     width: 100%;
     font-size: 20px;
@@ -303,10 +305,10 @@ input::-webkit-inner-spin-button {
     
 }
 .button-form button{
+    cursor: pointer;
     height: 54px;
    padding: 0 48px  ;
-   color: white;
-   background-color: #00239F;
+   background-color: #FFA480;
    border-radius: 5px;
    font-size: 20px ;
    user-select: none;
