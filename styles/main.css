@@ -309,6 +309,7 @@ input::-webkit-inner-spin-button {
     height: 54px;
    padding: 0 48px  ;
    background-color: #FFA480;
+   color: black;
    border-radius: 5px;
    font-size: 20px ;
    user-select: none;
