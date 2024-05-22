@@ -90,6 +90,7 @@ input::placeholder, textarea::placeholder {
     bottom: 100px;
     right: 20px;
     text-align: end;
+    z-index: 999;
   }
 
   .clickable{
