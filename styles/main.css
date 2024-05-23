@@ -152,26 +152,12 @@ display: none;
 /*  */
 
 .partners-bg{
-    /* position: relative; */
-    background-image: url(../images/bgpartn.png);
     background-image: url(../images/тестовыйфон.png);
     background-repeat: no-repeat;
     background-size: cover; 
     height: 600px;
     padding-top: 25px;
-    /* z-index: -2; */
 }
-/* .logo-left{
-    top: 0;
-    z-index: -1;
-    position: absolute;
-}
-.logo-right{
-    top: 0;
-    z-index: -1;
-    position: absolute;
-    right: 0;
-} */
 
 .partners{
     display: flex;
@@ -297,9 +283,7 @@ input::-webkit-inner-spin-button {
 .user-info_group p{
     font-size: 20px;
 }
-/* .user-info_group, .user-title label {
 
-} */
 .user-title, .user-title textarea {
     width: 100%;
     font-size: 20px;
@@ -471,7 +455,7 @@ form {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 .possibilities-wrapper h2 {
     font-size: 32px;
 }
