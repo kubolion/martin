@@ -63,28 +63,6 @@ input::placeholder, textarea::placeholder {
     box-shadow: none;
     border: none;
   }
-
-  @media (max-width: 1444px) {
-    .section{
-      padding-left: 90px;
-      padding-right: 90px;
-      width: auto;
-    }
-  }  @media (max-width: 900px) {
-    .section{
-      padding-left: 40px;
-      padding-right: 40px;
-      width: auto;
-    }
-    h2, h3{
-      font-size: 40px;
-      text-align: center;
-    }
-    p{
-      font-size: 20px;
-    }
-  }
-
   .support-bot{
     display: flex;
     flex-direction: column;
@@ -127,3 +105,32 @@ input::placeholder, textarea::placeholder {
   .toggle-block.active {
     display: block; 
 }
+  @media (max-width: 1444px) {
+    .section{
+      padding-left: 90px;
+      padding-right: 90px;
+      width: auto;
+    }
+  }  @media (max-width: 900px) {
+    .section{
+      padding-left: 40px;
+      padding-right: 40px;
+      width: auto;
+    }
+    h2, h3{
+      font-size: 40px;
+      text-align: center;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+  @media (max-height: 750px) {
+    .support-bot{
+      bottom: 40px;
+    }
+  .toggle-block iframe{
+    height: 500px;
+  }
+
+  }
