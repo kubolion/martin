@@ -316,6 +316,7 @@ input::-webkit-inner-spin-button {
    line-height: 0;
 }
 .spasibo{
+    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,6 +324,8 @@ input::-webkit-inner-spin-button {
     background-image: url(../images/desktop_message_spasibo.png);
     background-size: 100% 100%;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .spasibo-text{
    width: max-content;
