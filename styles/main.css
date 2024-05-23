@@ -202,7 +202,7 @@ display: none;
         display: inline-block;
         -webkit-animation: 20s slide infinite linear;
         animation: 20s slide infinite linear;
-        animation-delay: 2s;
+        animation-delay: 1s;
 
 
       }
@@ -210,7 +210,7 @@ display: none;
         display: inline-block;
         -webkit-animation: 20s slideReverse infinite linear;
         animation: 20s slideReverse infinite linear;
-        animation-delay: 2s;
+        animation-delay: 1s;
         
 
       }
