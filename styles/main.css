@@ -175,9 +175,10 @@ display: none;
 
     @keyframes slide {
         from  {
-          transform: translateX(0);
+            transform: translateX(0);
         }
         to {
+            animation-delay: 4s;
             -webkit-transform: translateX(-100%) ;
           transform: translateX(-100%);
         }
@@ -187,6 +188,7 @@ display: none;
           transform: translateX(0);
         }
         to {
+            animation-delay: 2s;
             -webkit-transform: translateX(100%) ;
           transform: translateX(100%);
 
@@ -202,12 +204,15 @@ display: none;
         display: inline-block;
         -webkit-animation: 20s slide infinite linear;
         animation: 20s slide infinite linear;
+        animation-delay: 2s;
+
 
       }
       .logos-slide_reverse{
         display: inline-block;
         -webkit-animation: 20s slideReverse infinite linear;
-        animation: 20s slideReverse infinite linear;
+        animation: 20s slideReverse infinite  linear;
+        animation-delay: 2s;
 
       }
       
