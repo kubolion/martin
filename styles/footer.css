@@ -10,17 +10,29 @@ footer{
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 72px ;
+    gap: 16px ;
 }
 .footer-navigation{
+    position: relative;
     align-items: center;
     display: flex;
     gap: 86px;
 }
+.logo-footer-adapt{
+display: none;
+}
+.logo-footer-pc{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: -214px;
+}
+
 .footer-nav_items{
     display: flex;
-    gap: 86px;
+    flex-direction: column;
     align-items: center;
+    gap: 6px;
 }
 .footer-nav_items div{
     display: flex;
@@ -34,13 +46,11 @@ footer{
     justify-content: center;
 }
 .description p {
-    text-align: center; font-size: 17px; color: rgb(204, 201, 201); padding-top: 80px;
+    text-align: center; font-size: 17px; color: rgb(204, 201, 201); padding-top: 30px;
 }
+
 @media (max-width: 1300px) {
-    .footer-nav_items{
-        flex-direction: column;
-        gap: 27px;
-    }
+
     .footer-nav_items p{
     font-size: 16px;}
     .list-items_footer{
@@ -54,13 +64,19 @@ footer{
 }
 
 @media (max-width: 800px) {
+    .logo-footer-adapt{
+        display: block;
+    }
+    .logo-footer-pc{
+        display: none;
+    }
 
 .footer-navigation{
     flex-direction: column;
-    gap: 35px;
+    gap: 28px;
 }
 .footer-nav_items{
-    text-align: center;
+gap: 16px;
 }
 .list-items_footer{
     font-size: 12px;
@@ -70,10 +86,9 @@ width: 336px;
 .description  p {
      width: 300.54px;
     font-size: 12px;
-    padding-top: 50px;
 }
 .footer-wrapper{
-    gap: 35px;
+    gap: 28px;
 }
 footer {
     padding-top: 50px;

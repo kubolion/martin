@@ -26,7 +26,10 @@
     font-weight: 600;
 }
 
-
+.header-logo img{
+    width: 199px;
+    height: 199px;
+}
 
 .nav-wrapper{
     display: inline-block;
@@ -111,11 +114,11 @@
  
     .header-nav{
         align-items: start;
-        gap: 70px;
+        gap: 46px;
         
     }
     .header-logo{
-        gap: 90px;
+        gap: 58px;
         padding-top: 145px;
     }
     .header-logo p{
@@ -131,8 +134,7 @@
     .header-contacts a p {
         font-size: 24px;
     }
-
-}
-@media (max-width: 460px) {
-
+    .phone p{
+        color: #BBCBD0;
+    }
 }
