@@ -69,7 +69,7 @@ input::placeholder, textarea::placeholder {
     gap: 15px;
     position: fixed;
     bottom: 60px;
-    right: 20px;
+    right: 60px;
     text-align: end;
     z-index: 999;
   }
@@ -80,15 +80,11 @@ input::placeholder, textarea::placeholder {
 }
   .clickable{
     cursor: pointer;
-    background-color: #3a9929;
-    padding: 10px;
-    width: 70px;
-    height: 70px;
-    border-radius: 999px;
+    
   } 
   .clickable img{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 
   .toggle-block {
@@ -111,7 +107,8 @@ input::placeholder, textarea::placeholder {
       padding-right: 90px;
       width: auto;
     }
-  }  @media (max-width: 900px) {
+  } 
+   @media (max-width: 900px) {
     .section{
       padding-left: 40px;
       padding-right: 40px;
@@ -124,13 +121,24 @@ input::placeholder, textarea::placeholder {
     p{
       font-size: 20px;
     }
+    .clickable img{
+      width: 60px;
+      height: 60px;
+    }
   }
+
   @media (max-height: 750px) {
+    .clickable img{
+      width: 60px;
+      height: 60px;
+    }
     .support-bot{
       bottom: 40px;
+      right: 20px;
     }
   .toggle-block iframe{
     height: 500px;
   }
 
   }
+

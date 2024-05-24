@@ -59,6 +59,7 @@ display: none;
     }
     .number p{
         font-size: 36px;
+        width: max-content;
     }
 
 }
